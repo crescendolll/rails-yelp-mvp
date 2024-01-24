@@ -1,0 +1,10 @@
+<div class="container m-3">
+  <h1 class="mb-3">Restaurant index</h1>
+  <ul class="mb-3">
+  <% @restaurants.each do |r|%>
+    <li class="card"><%= r.name%></li>
+    <%# <%= link_to %>
+  <% end %>
+  </ul>
+
+</div>
